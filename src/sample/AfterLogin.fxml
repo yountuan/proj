@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AfterLogin">
+   <top>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+            <TextArea layoutY="128.0" prefHeight="204.0" prefWidth="600.0" text="The state governing body of the university is the Ministry of Education and Science of the Kyrgyz Republic.&#10;The founder of Ala-Too International University is Sapat International Educational Institutions.&#10;Ala-Too International University (AIU) was established in 1996 and it is located in Bishkek, the Kyrgyz Republic.&#10;AIU is a legal entity, carries out its activities in accordance with the legislation of the Kyrgyz Republic.&#10;The governing bodies of the university are:&#10;- the supreme management body  - Founder;&#10;- executive body - Rector - Sanzharbek Erdolatov;&#10;- collegial body - academic council of the university.&#10;Our university consists of five blocks, where there are classrooms and laboratories equipped with &#10;the Internet and modern interactive whiteboards. &#10;Our &quot;Campus&quot; is an educational center with a library, a conference hall, &#10;3 stadiums, 1 tennis cord, 1 gym, 6 computer classes, 1 Internet club, 1 research center, 2 cantinas, 1 medical center.&#10;&#10;">
+               <font>
+                  <Font size="11.0" />
+               </font></TextArea>
+            <Label layoutX="14.0" layoutY="41.0" prefHeight="39.0" prefWidth="138.0" text="About AIU" textFill="#d9e406">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="119.0" fitWidth="206.0" layoutX="372.0" layoutY="7.0">
+               <image>
+                  <Image url="@../img/image_stud5_2351250565753543037.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="110.0" fitWidth="106.0" layoutX="247.0" layoutY="12.0">
+               <image>
+                  <Image url="@../img/1519540999.2.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+   </top>
+   <bottom>
+          <Button fx:id="logout" mnemonicParsing="false" onAction="#userLogOut" prefHeight="42.0" prefWidth="83.0" style="-fx-background-color: #FFC900;" text="Log Out" BorderPane.alignment="CENTER">
+              <font>
+                  <Font size="16.0" />
+              </font>
+          </Button>
+   </bottom>
+</BorderPane>
